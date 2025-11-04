@@ -11,7 +11,7 @@ def inverter(frase):
 
     frase_invertida += palavra[::-1]
 
-    return frase_invertida
+    return frase_invertidas
 
 texto = input("Digite uma frase: ")
 resultado = inverter(texto)
